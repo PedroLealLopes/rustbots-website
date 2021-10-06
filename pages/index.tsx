@@ -13,8 +13,9 @@ const Home: NextPage = () => {
 
 
     <GetThemAll />
-    <Partners />
     <MeetTheTeam />
+    <Partners />
+
     </div>
   )
 }
