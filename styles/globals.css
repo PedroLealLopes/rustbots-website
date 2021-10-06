@@ -9,7 +9,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #000;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -42,9 +42,9 @@ a {
 .GetThemAll {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 25px 100px;
+  padding: 25px 200px;
   height: 100vh;
   width: 100vw;
   color: white;
@@ -67,8 +67,30 @@ a {
   text-shadow: 1px 1px 6px #22e2ff;
 }
 
-.content p {
+.GetThemAll .content p {
   width: 750px;
+}
+
+.Partners {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 25px 200px;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  align-items: center;
+}
+
+.Partners h1{
+  text-align: center;
+
+}
+
+.partner-image{
+  width: 250px;
+  height: 100px;
+  background-color: red;
+  padding: 25px 0px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,3 +119,4 @@ a {
     height: 250px;
   }
 }
+

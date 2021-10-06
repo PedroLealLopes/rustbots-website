@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import {GetThemAll} from '../components/get-them-all'
+import {Partners} from '../components/partners'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
 
 
     <GetThemAll />
+    <Partners />
     </div>
   )
 }
