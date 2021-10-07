@@ -3,6 +3,8 @@ import React, {FC} from 'react'
 export const Roadmap: FC = () => {
   return (
     <div className="Roadmap">
+      <div className="roadmap-image"/>
+      
       <div className="content">
         <h1>ROADMAP</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
