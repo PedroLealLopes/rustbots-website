@@ -66,7 +66,9 @@ a {
   font-size: 8rem;
   text-shadow: 1px 1px 6px #22e2ff;
 }
-
+p{
+  font-family: "Roboto", sans-serif;
+}
 .GetThemAll .content p {
   width: 750px;
 }
@@ -128,6 +130,7 @@ a {
 .Footer h1{
   text-align: left;
 }
+
 .footer-image{
   width: 800px;
   height: 520px;
@@ -246,8 +249,9 @@ li.done:before{
   padding: 10px 25px;
   padding-bottom: 0px;
   width: 100vw;
-  color: white;
+  color: black;
   align-items: center;
+  background-color: #22e2ff;
 }
 
 .footer-image{
@@ -256,9 +260,68 @@ li.done:before{
   background-image: url(/bot04.png);
   background-size: cover;
   background-repeat: no-repeat;
+  display: none;
 }
 .Footer h1{
+  font-size: 3rem;
   text-align: center;
+}
+.Footer .content p{
+  text-align: center;
+}
+
+.Roadmap {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 25px;
+  width: 100vw;
+  color: white;
+}
+
+.roadmap-content {
+  padding: 30px 0px;
+}
+
+.roadmap-stages{
+
+  padding-left: 20px ;
+  position: relative;
+}
+
+li.roadmap-stages{
+  border-left: solid 2px white;
+}
+
+li.roadmap-stages:before{
+    position: absolute;
+    left: -10px;
+    top: 17px;
+    content: " ";
+    border-radius: 500%;
+    background: white;
+    height: 20px;
+    width: 20px;
+}
+
+.roadmap-stages h2{
+  font-family: "Debugfreetrial mvdyb", sans-serif;
+  color: #22e2ff;
+  font-size: 2.5rem;
+}
+
+li.done{
+  border-left: solid 2px #22e2ff;
+}
+
+li.done:before{
+    position: absolute;
+    left: -10px;
+    top: 17px;
+    content: " ";
+    border-radius: 500%;
+    background: #22e2ff;
+    height: 20px;
+    width: 20px;
 }
 
 }
