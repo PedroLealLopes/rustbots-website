@@ -143,6 +143,7 @@ a {
   border-radius: 2rem;
   height: 44px;
   width: 33%;
+  text-align: center;
 }
 
 .button-social {
@@ -435,6 +436,13 @@ li.done:before{
 
 .rights {
   color: white;
+}
+
+.content .button-list .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
 
 /* MEDIA SCREEN */
