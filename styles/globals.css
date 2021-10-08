@@ -143,6 +143,7 @@ a {
   border-radius: 2rem;
   height: 44px;
   width: 33%;
+  text-align: center;
 }
 
 .button-social {
@@ -235,7 +236,7 @@ a {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 200px;
+  padding: 5% 15%;
   height: 80vh;
   width: 100vw;
   color: white;
@@ -275,7 +276,7 @@ p{
 .Partners {
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -296,7 +297,7 @@ p{
 .meet-the-team{
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -318,7 +319,7 @@ p{
 .meet-the-fam{
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -360,11 +361,12 @@ p{
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   padding-bottom: 0px;
   width: 100vw;
   color: white;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .Footer h1{
@@ -386,7 +388,7 @@ p{
   color: white;
 }
 .Roadmap .content{
-  padding: 25px 200px;
+  padding: 5% 15%;
 }
 .roadmap-image{
   width: 100%;
@@ -478,8 +480,15 @@ li.done:before{
   color: white;
 }
 
+.content .button-list .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
 /* MEDIA SCREEN */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .GetThemAll {
     display: flex;
     flex-flow: column nowrap;
