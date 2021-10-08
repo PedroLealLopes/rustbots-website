@@ -29,14 +29,205 @@ a {
   font-display: swap;
 }
 
-.intro {}
+.nav-container{
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  color: white;
+  z-index: 1;
+  padding: 10px 0;
+}
 
-#myVideo {
+.hvr-underline-from-center {
+  font-size: 28px;
+  margin-right: 20px;
+  font-family: 'Debugfreetrial mvdyb',
+  sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  right: 0;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
   bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  background: #22e2ff;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.hvr-back-pulse:hover,
+.hvr-back-pulse:focus,
+.hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #22e2ff;
+  background-color: #22e2ff;
+  color: white;
+}
+
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(34, 226, 255, 0.75);
+  }
+}
+
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(34, 226, 255, 0.75);
+  }
+}
+
+.mobile-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  width: 100%;
+}
+
+.mobile-menu{
+  display: none;
+}
+
+.button{
+  padding: 5px 15px;
+  border: 2px solid #22e2ff;
+  border-radius: 2rem;
+  height: 44px;
+  width: 33%;
+}
+
+.button-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #22e2ff;
+  border-radius: 2rem;
+  height: 44px;
+  width: 44px;
+}
+
+.button-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  width: 50%;
+  height: 100%;
+}
+
+.button-list-socials{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+
+.logo{
+  flex-grow: 1;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.intro-content {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+  width: 80%;
+  text-align: center;
+  z-index: 1;
+}
+
+.intro-content h1{
+  margin: 30px 30px 20px;
+}
+
+.intro-content p{
+  width: 50%;
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120vh;
+  width: 100vw;
+  background-image: linear-gradient(0deg, #000, #000 0%, rgba(0, 0, 0, 0.45) 75%, transparent);
+  z-index: 1;
+}
+
+.intro video{
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
 }
 
 .GetThemAll {
@@ -45,7 +236,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 25px 200px;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   color: white;
 }
@@ -61,10 +252,18 @@ a {
   background-position: center;
 }
 
-.content h1 {
-  font-family: "Debugfreetrial mvdyb", sans-serif;
-  font-size: 8rem;
+h1{
+  font-family: "Debugfreetrial mvdyb",
+  sans-serif;
   text-shadow: 1px 1px 6px #22e2ff;
+  font-size: 122px;
+  line-height: 86px;
+  font-weight: 400;
+  color: white;
+}
+
+.content h1 {
+  font-size: 8rem;
 }
 p{
   font-family: "Roboto", sans-serif;
@@ -209,26 +408,105 @@ li.done:before{
 
 
 
+.hamburger-react{
+  z-index: 9999;
+}
+
+.mobile-menu-toggle{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100vw;
+  height: 200px;
+  transition: ease-in .5s;
+  z-index: 10;
+  border-bottom: 3px solid #22e2ff;
+  background-color: black;
+}
+
+.middle{
+  border-top: 1px dashed #22e2ff;
+  border-bottom: 1px dashed #22e2ff;
+}
+
+.rights {
+  color: white;
+}
+
 /* MEDIA SCREEN */
 @media only screen and (max-width: 768px) {
   .GetThemAll {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 25px;
     height: 100vh;
     width: 100vw;
   }
+  .content .button-list .button {
+    display: none;
+  }
+  .content .button-list{
+    margin-top: 0;
+  }
 
+  .nav-container{
+    padding: 15px;
+  }
 
-  .content h1 {
-    font-size: 4.5rem;
+  .intro-content h1{
+    margin: 0;
+    margin-bottom: 1.2rem;
+  }
+
+  .intro-content p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .button{
+    width: 100%;
+  }
+
+  .button-list{
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  .button-list-socials {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  
+  .button-list a{
+    margin-bottom: 15px;
+  }
+
+  .nav-container nav{
+    display: none;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  h1 {
+    font-size: 42px !important;
+    line-height: 38px;
+  }
+
+  p{
+    font-size: 14px !important;
   }
 
   .content p {
     width: 100% !important;
-    font-size: 1rem;
   }
 
   .robot-image {
@@ -255,6 +533,7 @@ li.done:before{
 }
 
 .Footer {
+  margin-top: 2rem;
   position: relative;
   display: flex;
   flex-flow: column nowrap;
