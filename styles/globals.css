@@ -236,7 +236,7 @@ a {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 200px;
+  padding: 5% 15%;
   height: 80vh;
   width: 100vw;
   color: white;
@@ -276,7 +276,7 @@ p{
 .Partners {
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -297,7 +297,7 @@ p{
 .meet-the-team{
   display: flex;
   flex-flow: column nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -316,15 +316,57 @@ p{
   height: 500px;
 }
 
+.meet-the-fam{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 5% 15%;
+  width: 100vw;
+  color: white;
+  align-items: center;
+}
+
+.meet-the-fam h1{
+  text-align: center;
+}
+
+.fam-slider{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 30px ;
+}
+.fam-image{
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+.fam-slider-info{
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 50px;
+}
+.fam-slider-info p{
+  width: 700px;
+}
+
+.fam-slider-info h2{
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
 .Footer {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  padding: 25px 200px;
+  padding: 5% 15%;
   padding-bottom: 0px;
   width: 100vw;
   color: white;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .Footer h1{
@@ -346,7 +388,7 @@ p{
   color: white;
 }
 .Roadmap .content{
-  padding: 25px 200px;
+  padding: 5% 15%;
 }
 .roadmap-image{
   width: 100%;
@@ -446,7 +488,7 @@ li.done:before{
 }
 
 /* MEDIA SCREEN */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .GetThemAll {
     display: flex;
     flex-flow: column nowrap;
@@ -539,6 +581,34 @@ li.done:before{
   color: white;
   align-items: center;
 }
+.meet-the-fam{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 25px;
+  width: 100vw;
+  color: white;
+  align-items: center;
+}
+
+.fam-image{
+  width: 350px;
+  height: 350px;
+}
+
+.fam-slider-info{
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 20px;
+}
+
+.fam-slider-info p{
+  width: 350px;
+}
+
+.fam-slider-info h2{
+  font-size: 1rem;
+}
+
 
 .Footer {
   margin-top: 2rem;
