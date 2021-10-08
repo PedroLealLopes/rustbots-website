@@ -6,7 +6,7 @@ export const Footer: FC = () => {
     <div className="Footer">
       <div className="content">
         <h1>THATS ALL FOLKS!</h1>
-        
+        <p className="rights"> © All Rights Reserved 2021 </p>
         <div className="button-list" style={{ width: "100%" }}>
           <Button Title="MAGIC EDEN" Href="#" />
           <Button Title="CONNECT WALLET"  Href="#"/>
@@ -21,5 +21,3 @@ export const Footer: FC = () => {
     </div>
   )
 }
-
-

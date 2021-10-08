@@ -8,7 +8,7 @@ import { MeetTheFam } from '../components/meet-the-fam'
 
 const Home: NextPage = () => {
   return (
-    <div className="container py-2 pt-0">
+    <div className="container py-2 pt-0 pb-0">
       <Intro />
       <GetThemAll />
       <MeetTheFam />
