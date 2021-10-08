@@ -3,6 +3,7 @@ import {GetThemAll} from '../components/get-them-all'
 import {Partners} from '../components/partners'
 import {MeetTheTeam} from '../components/meet-the-team'
 import {Intro} from '../components/intro'
+import {Footer} from '../components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <GetThemAll />
       <MeetTheTeam />
       <Partners />
+      <Footer />
     </div>
   )
 }
