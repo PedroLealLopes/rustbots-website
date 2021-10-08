@@ -313,6 +313,47 @@ h1{
   height: 500px;
 }
 
+.meet-the-fam{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 25px 200px;
+  width: 100vw;
+  color: white;
+  align-items: center;
+}
+
+.meet-the-fam h1{
+  text-align: center;
+}
+
+.fam-slider{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 30px ;
+}
+.fam-image{
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+.fam-slider-info{
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 50px;
+}
+.fam-slider-info p{
+  width: 700px;
+}
+
+.fam-slider-info h2{
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
 .Footer {
   position: relative;
   display: flex;
@@ -506,6 +547,34 @@ li.done:before{
   color: white;
   align-items: center;
 }
+.meet-the-fam{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 25px;
+  width: 100vw;
+  color: white;
+  align-items: center;
+}
+
+.fam-image{
+  width: 350px;
+  height: 350px;
+}
+
+.fam-slider-info{
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 20px;
+}
+
+.fam-slider-info p{
+  width: 350px;
+}
+
+.fam-slider-info h2{
+  font-size: 1rem;
+}
+
 
 .Footer {
   position: relative;
