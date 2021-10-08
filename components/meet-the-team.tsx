@@ -11,7 +11,9 @@ export const MeetTheTeam: FC = () => {
         </p>
       </div>
       <div className="team-slider">
-        <div className="team-image1">SLIDER PLACEHOLDER // WIDTH // HEIGHT</div>
+        <div className="team-image"></div>
+        <h2>Name</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.</p>
       </div>
     </div>
 
