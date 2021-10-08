@@ -366,6 +366,7 @@ p{
   width: 100vw;
   color: white;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .Footer h1{
@@ -487,7 +488,7 @@ li.done:before{
 }
 
 /* MEDIA SCREEN */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .GetThemAll {
     display: flex;
     flex-flow: column nowrap;
