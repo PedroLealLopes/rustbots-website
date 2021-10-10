@@ -240,7 +240,6 @@ a {
   height: 80vh;
   width: 100vw;
   color: white;
-  margin-bottom: 5%;
 }
 .GetThemAll .content p {
   width: 500px;
@@ -394,6 +393,7 @@ p{
 }
 .Roadmap .content{
   padding: 5% 25%;
+  
 }
 .roadmap-image{
   width: 100%;
@@ -409,6 +409,7 @@ p{
 
 .roadmap-content {
     padding: 5% 20%;
+    padding-bottom: 0;
 }
 
 .roadmap-stages{
@@ -643,6 +644,7 @@ li.done:before{
 }
 .Roadmap .content{
   padding: 10px 25px;
+  
 }
 
 .roadmap-image{
@@ -651,6 +653,7 @@ li.done:before{
 
 .roadmap-content {
   padding: 30px 25px;
+  padding-bottom: 0;
 }
 
 .roadmap-stages{
