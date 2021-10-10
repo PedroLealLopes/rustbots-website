@@ -244,6 +244,14 @@ a {
 
 .content {}
 
+.BrainhubCarouselItem {
+  filter: brightness(30%);
+}
+
+.BrainhubCarouselItem--active {
+  filter: brightness(100%);
+}
+
 .robot-image {
   width: 500px;
   height: 500px;
@@ -344,33 +352,11 @@ p{
   text-align: center;
 }
 
-.fam-slider{
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  padding-top: 30px ;
-}
 .fam-image{
   background-color: red;
   width: 500px;
   height: 500px;
 }
-.fam-slider-info{
-  display: flex;
-  flex-flow: column nowrap;
-  padding-top: 50px;
-}
-.fam-slider-info p{
-  width: 700px;
-}
-
-.fam-slider-info h2{
-  text-align: left;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 
 .Footer {
   position: relative;
@@ -502,6 +488,7 @@ li.done:before{
   font-size: 12px;
 }
 
+
 /* MEDIA SCREEN */
 @media only screen and (max-width: 1024px) {
   .GetThemAll {
@@ -609,21 +596,6 @@ li.done:before{
   width: 350px;
   height: 350px;
 }
-
-.fam-slider-info{
-  display: flex;
-  flex-flow: column nowrap;
-  padding-top: 20px;
-}
-
-.fam-slider-info p{
-  width: 350px;
-}
-
-.fam-slider-info h2{
-  font-size: 1rem;
-}
-
 
 .Footer {
   margin-top: 2rem;
