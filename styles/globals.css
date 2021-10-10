@@ -236,12 +236,15 @@ a {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 5% 15%;
+  padding: 15% 25%;
   height: 80vh;
   width: 100vw;
   color: white;
+  margin-bottom: 5%;
 }
-
+.GetThemAll .content p {
+  width: 500px;
+}
 .content {}
 
 .BrainhubCarouselItem {
@@ -269,6 +272,7 @@ h1{
   line-height: 86px;
   font-weight: 400;
   color: white;
+  margin-bottom: 10px;
 }
 
 .content h1 {
@@ -277,14 +281,12 @@ h1{
 p{
   font-family: "Roboto", sans-serif;
 }
-.GetThemAll .content p {
-  width: 750px;
-}
+
 
 .Partners {
   display: flex;
   flex-flow: column nowrap;
-  padding: 5% 15%;
+  padding: 15% 25%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -305,10 +307,11 @@ p{
 .meet-the-team{
   display: flex;
   flex-flow: column nowrap;
-  padding: 5% 15%;
+  padding: 15% 25%;
   width: 100vw;
   color: white;
   align-items: center;
+
 }
 .meet-the-team h1{
   text-align: center;
@@ -342,7 +345,7 @@ p{
 .meet-the-fam{
   display: flex;
   flex-flow: column nowrap;
-  padding: 5% 15%;
+  padding: 15% 25%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -362,7 +365,7 @@ p{
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  padding: 5% 15%;
+  padding: 15% 25%;
   padding-bottom: 0px;
   width: 100vw;
   color: white;
@@ -375,8 +378,8 @@ p{
 }
 
 .footer-image{
-  width: 800px;
-  height: 520px;
+  width: 400px;
+  height: 310px;
   background-image: url(/bot04.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -387,9 +390,10 @@ p{
   flex-flow: column nowrap;
   width: 100vw;
   color: white;
+  margin-bottom: 15%;
 }
 .Roadmap .content{
-  padding: 5% 15%;
+  padding: 5% 25%;
 }
 .roadmap-image{
   width: 100%;
@@ -404,7 +408,7 @@ p{
 }
 
 .roadmap-content {
-  padding: 35px 300px;
+    padding: 5% 20%;
 }
 
 .roadmap-stages{
@@ -497,8 +501,9 @@ li.done:before{
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 25px;
-    height: 100vh;
+    height: 30vh;
     width: 100vw;
+    margin-bottom: 25%;
   }
   .content .button-list .button {
     display: none;
@@ -573,6 +578,7 @@ li.done:before{
   width: 100vw;
   color: white;
   align-items: center;
+  margin-bottom: 25%;
 }
 
 .meet-the-team{
@@ -582,6 +588,7 @@ li.done:before{
   width: 100vw;
   color: white;
   align-items: center;
+  margin-bottom: 25%;
 }
 .meet-the-fam{
   display: flex;
@@ -590,6 +597,7 @@ li.done:before{
   width: 100vw;
   color: white;
   align-items: center;
+  margin-bottom: 25%;
 }
 
 .fam-image{
@@ -631,6 +639,7 @@ li.done:before{
   flex-flow: column nowrap;
   width: 100vw;
   color: white;
+  margin-bottom: 25%;
 }
 .Roadmap .content{
   padding: 10px 25px;

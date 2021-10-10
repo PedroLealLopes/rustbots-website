@@ -13,7 +13,7 @@ const Carousel = dynamic(
 export const MeetTheTeam: FC = () => {
   return (
       <div className="meet-the-team">
-      <div className="content">
+      <div className="content content mb-8 lg:mb-40">
         <h1>MEET THE TEAM</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laboriosam fugit error obcaecati dicta officiis, fugiat est pariatur corrupti vitae laborum voluptas vel perferendis, rem tempore incidunt aut, autem culpa!
