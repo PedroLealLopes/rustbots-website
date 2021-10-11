@@ -15,10 +15,9 @@ export const MeetTheTeam: FC = () => {
       <div className="meet-the-team">
       <div className="content content mb-8 lg:mb-40">
         <h1>MEET THE TEAM</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laboriosam fugit error obcaecati dicta officiis, fugiat est pariatur corrupti vitae laborum voluptas vel perferendis, rem tempore incidunt aut, autem culpa!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.
-        </p>
+        <h1>
+          COMING SOON!
+        </h1>
       </div>
 
       {/* <Carousel
@@ -43,7 +42,7 @@ export const MeetTheTeam: FC = () => {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.</p>
         </div>
       </Carousel> */}
-
+{/* 
       <Carousel
       offset={1}
         plugins={[
@@ -85,7 +84,7 @@ export const MeetTheTeam: FC = () => {
           <h3 className="text-2xl font-bold mb-2 mt-2">Xico</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.</p>
         </div>
-      </Carousel>
+      </Carousel> */}
 
 
         

@@ -435,8 +435,13 @@ li.roadmap-stages:before{
 
 .roadmap-stages h2{
   font-family: "Debugfreetrial mvdyb", sans-serif;
-  color: #22e2ff;
+  color: white;
   font-size: 2.5rem;
+}
+.done h2{
+
+  color: #22e2ff !important;
+
 }
 
 li.done{
