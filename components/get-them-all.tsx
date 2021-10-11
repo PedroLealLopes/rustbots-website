@@ -2,7 +2,7 @@ import React, {FC} from 'react'
 
 export const GetThemAll: FC = () => {
   return (
-    <div className="GetThemAll">
+    <div id="about" className="GetThemAll">
       <div className="content">
         <h1>
           Get Them All

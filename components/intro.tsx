@@ -12,14 +12,14 @@ export const Intro: FC = () => {
           <img width="64px" src="/logoMark.png" alt="" />
         </a>
         <nav>
-          <a className="hvr-underline-from-center" href="#">About</a>
-          <a className="hvr-underline-from-center" href="#">Collections</a>
+          <a className="hvr-underline-from-center" href="#about">About</a>
+          <a className="hvr-underline-from-center" href="#collections">Collections</a>
           <a className="hvr-underline-from-center" href="#">Contact</a>
         </nav>
         <div className="mobile-menu">
           <div className="mobile-menu-toggle">
-            <a className="mobile-a" href="#">About</a>
-            <a className="mobile-a middle" href="#">Collections</a>
+            <a className="mobile-a" href="#about">About</a>
+            <a className="mobile-a middle" href="#collections">Collections</a>
             <a className="mobile-a" href="#">Contact</a>
           </div>
           <Hamburger color="#22e2ff" direction="left"
