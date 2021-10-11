@@ -72,13 +72,13 @@ export const MeetTheFam: FC = () => {
   }
 
   return (
-      <div className="content mb-8 flex justify-center items-center flex-col lg:mb-40">
-    <div id="collections" className="meet-the-fam">
-        <h1>MEET THE FAM</h1>
-        <p className="w-1/2">
-          Over the years many RustBots have been introduced to the public by various corporations, government agencies, and even celebrities… join the movement and try to collect them all!
-        </p>
-      </div>
+        <div id="collections" className="meet-the-fam">
+          <div className="content mb-8 flex justify-center items-center flex-col lg:mb-40">
+            <h1>MEET THE FAM</h1>
+            <p className="w-1/2">
+              Over the years many RustBots have been introduced to the public by various corporations, government agencies, and even celebrities… join the movement and try to collect them all!
+            </p>
+          </div>
 
       <Carousel
         value={current}
