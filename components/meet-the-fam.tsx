@@ -41,7 +41,7 @@ export const MeetTheFam: FC = () => {
         return (
           <div>
             <h3 className="text-2xl font-bold mb-2">FunBot v1.0 StandUp Comedian Bur</h3>
-            <p>Originally designed to assist people in practicing their social skills, it was found that Burr had a bug in his humor settings. The bug made the bot useless for practice as it would quickly blow your self-esteem. The design’s failure gave the creator of FunBots a new idea… What if they developed bots for entertainment purposes? Soon enough, FunBots began to dominate the stand-up comedy world, one of them even got its own talk show called "Every Night with Billy the Bot!"</p>
+            <p>Originally designed to assist people in practicing their social skills, it was found that Burr had a bug in his humor settings. The bug made the bot useless for practice as it would quickly blow your self-esteem. The design’s failure gave the creator of FunBots a new idea… What if they developed bots for entertainment purposes? Soon enough, FunBots began to dominate the stand-up comedy world, one of them even got its own talk show called &quot;Every Night with Billy the Bot!&quot;</p>
           </div>
         )
         break;
