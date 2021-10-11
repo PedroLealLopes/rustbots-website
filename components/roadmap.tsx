@@ -5,11 +5,10 @@ export const Roadmap: FC = () => {
     <div className="Roadmap">
       <div className="roadmap-image"/>
       
-      <div className="content">
-        <h1>ROADMAP</h1>
 
-      </div>
         <div className="roadmap-content">
+      <h1 className="mb-8">ROADMAP</h1>
+
           <ul>
             <li className="roadmap-stages done">
               <h2>STAGE 1</h2>

@@ -5,7 +5,7 @@ export const GetThemAll: FC = () => {
     <div id="about" className="GetThemAll">
       <div className="content">
         <h1>
-          Get Them All
+          What are Rustbots?
         </h1>
         <p>
           They are the solution to a dull and boring world ruled by monotony and sameness.

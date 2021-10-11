@@ -197,19 +197,20 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-align: center;
   color: white;
   width: 80%;
-  text-align: center;
   z-index: 1;
 }
 
 .intro-content h1{
   margin: 30px 30px 20px;
+  font-size: 8rem;
+  line-height: 78px;
 }
 
 .intro-content p{
   width: 50%;
+  text-align: center;
 }
 
 .screen {
@@ -238,7 +239,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 10% 20%;
-  height: 80vh;
+  min-height: 80vh;
   width: 100vw;
   color: white;
 }
@@ -268,18 +269,16 @@ h1{
   font-family: "Debugfreetrial mvdyb",
   sans-serif;
   text-shadow: 1px 1px 6px #22e2ff;
-  font-size: 122px;
-  line-height: 86px;
+  font-size: 62px;
+  line-height: 38px;
   font-weight: 400;
   color: white;
   margin-bottom: 10px;
 }
 
-.content h1 {
-  font-size: 8rem;
-}
 p{
   font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
 
 
@@ -294,7 +293,6 @@ p{
 
 .Partners h1{
   text-align: center;
-
 }
 
 .partner-image{
@@ -406,6 +404,11 @@ p{
   filter: blur(2px);
   opacity: 0.5;
   box-shadow: 0px -150px 50px -50px black inset, 0px 150px 50px -50px black inset;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .roadmap-content {
@@ -439,10 +442,9 @@ li.roadmap-stages:before{
   color: white;
   font-size: 2.5rem;
 }
+
 .done h2{
-
   color: #22e2ff !important;
-
 }
 
 li.done{
@@ -502,6 +504,15 @@ li.done:before{
 
 /* MEDIA SCREEN */
 @media only screen and (max-width: 1024px) {
+
+  .robot-image{
+    display: none;
+  }
+
+  .screen{
+    height: 80vh;
+  }
+
   .GetThemAll {
     display: flex;
     flex-flow: column nowrap;
@@ -524,13 +535,14 @@ li.done:before{
   }
 
   .intro-content h1{
+    font-size: 62px;
+    line-height: 52px;
     margin: 0;
     margin-bottom: 1.2rem;
   }
 
   .intro-content p {
     width: 100%;
-    text-align: left;
   }
 
   .button{
@@ -560,13 +572,8 @@ li.done:before{
     display: block;
   }
 
-  h1 {
-    font-size: 42px !important;
-    line-height: 38px;
-  }
-
   p{
-    font-size: 14px !important;
+    /* font-size: 14px !important; */
   }
 
   .content p {
@@ -634,7 +641,6 @@ li.done:before{
   display: none;
 }
 .Footer h1{
-  font-size: 3rem;
   text-align: center;
 }
 .Footer .content p{
@@ -681,12 +687,6 @@ li.roadmap-stages:before{
     background: white;
     height: 20px;
     width: 20px;
-}
-
-.roadmap-stages h2{
-  font-family: "Debugfreetrial mvdyb", sans-serif;
-  color: #22e2ff;
-  font-size: 2.5rem;
 }
 
 li.done{
