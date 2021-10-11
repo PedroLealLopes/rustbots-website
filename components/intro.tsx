@@ -1,20 +1,29 @@
 import React, {FC} from 'react'
 import { Button } from './button'
 import Hamburger from 'hamburger-react'
+import Swal from 'sweetalert2'
 
 export const Intro: FC = () => {
+  const onClickHandler = () => {
+      Swal.fire({
+      title: 'Coming Soon!',
+      icon: 'info',
+      confirmButtonText: 'Cool'
+    })
+  }
+
   return (
     <div className="intro">
       <div className="screen" />
 
       <div className="nav-container">
         <a className="logo" href="">
-          <img width="64px" src="/logoMark.png" alt="" />
+          <img width="64px" src="/logoMark.svg" alt="" />
         </a>
         <nav>
           <a className="hvr-underline-from-center" href="#">About</a>
           <a className="hvr-underline-from-center" href="#">Collections</a>
-          <a className="hvr-underline-from-center" href="#">Contact</a>
+          <a onClick={onClickHandler} className="hvr-underline-from-center" href="#">Contact</a>
         </nav>
         <div className="mobile-menu">
           <div className="mobile-menu-toggle">
