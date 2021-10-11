@@ -500,6 +500,10 @@ li.done:before{
   font-size: 12px;
 }
 
+.Footer .content {
+  width: 50%;
+}
+
 
 /* MEDIA SCREEN */
 @media only screen and (max-width: 1024px) {
@@ -642,6 +646,7 @@ li.done:before{
 .Footer h1{
   text-align: center;
 }
+
 .Footer .content p{
   text-align: center;
 }
@@ -701,6 +706,10 @@ li.done:before{
     background: #22e2ff;
     height: 20px;
     width: 20px;
+}
+
+.Footer .content {
+  width: 100%;
 }
 
 }

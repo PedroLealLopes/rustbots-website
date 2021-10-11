@@ -12,9 +12,10 @@ const Home: NextPage = () => {
   return (
     <div className="container py-2 pt-0 pb-0">
       <Head>
-        <title>RustBots Home 🤖</title>
+        <title>RustBots | Home 🤖</title>
         <meta property="og:title" content="RustBots Home 🤖" key="title" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" />
+        <link rel="icon" href="/logoMark.svg" />
       </Head>
       <Intro />
       <GetThemAll />
