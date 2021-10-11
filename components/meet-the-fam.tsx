@@ -86,7 +86,6 @@ export const MeetTheFam: FC = () => {
         onChange={onChange}
           plugins={[
             'centered',
-            'infinite',
             'fastSwipe',
           {
             resolve: slidesToShowPlugin,

@@ -57,6 +57,18 @@ export const MeetTheTeam: FC = () => {
             },
           },
         ]}   
+        breakpoints={{
+          1024: {
+            plugins: [
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 1
+                }
+              },
+            ]
+          }
+        }}
       >
         <div className="flex flex-col justify-center w-96">
           <div className="team-image"></div>

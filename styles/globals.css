@@ -236,7 +236,7 @@ a {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 15% 25%;
+  padding: 10% 20%;
   height: 80vh;
   width: 100vw;
   color: white;
@@ -285,7 +285,7 @@ p{
 .Partners {
   display: flex;
   flex-flow: column nowrap;
-  padding: 15% 25%;
+  padding: 10% 20%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -306,7 +306,7 @@ p{
 .meet-the-team{
   display: flex;
   flex-flow: column nowrap;
-  padding: 15% 25%;
+  padding: 10% 20%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -344,7 +344,7 @@ p{
 .meet-the-fam{
   display: flex;
   flex-flow: column nowrap;
-  padding: 15% 25%;
+  padding: 10% 20%;
   width: 100vw;
   color: white;
   align-items: center;
@@ -364,7 +364,7 @@ p{
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  padding: 15% 25%;
+  padding: 10% 20%;
   padding-bottom: 0px;
   width: 100vw;
   color: white;
