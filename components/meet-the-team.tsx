@@ -1,23 +1,18 @@
-import React, {FC} from 'react'
-import dynamic from 'next/dynamic';
-import { slidesToShowPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+import React, { FC } from 'react'
+import dynamic from 'next/dynamic'
+import { slidesToShowPlugin } from '@brainhubeu/react-carousel'
+import '@brainhubeu/react-carousel/lib/style.css'
 
-const Carousel = dynamic(
-  () => import ('@brainhubeu/react-carousel'),
-  {
-  ssr: false
-  }
-)
+const Carousel = dynamic(() => import('@brainhubeu/react-carousel'), {
+  ssr: false,
+})
 
 export const MeetTheTeam: FC = () => {
   return (
-      <div className="meet-the-team">
+    <div className="meet-the-team">
       <div className="content content mb-8 lg:mb-40">
         <h1>MEET THE TEAM</h1>
-        <h1>
-          COMING SOON!
-        </h1>
+        <h1>COMING SOON!</h1>
       </div>
 
       {/* <Carousel
@@ -42,7 +37,7 @@ export const MeetTheTeam: FC = () => {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.</p>
         </div>
       </Carousel> */}
-{/* 
+      {/* 
       <Carousel
       offset={1}
         plugins={[
@@ -85,9 +80,6 @@ export const MeetTheTeam: FC = () => {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium ab mollitia earum repellat doloremque eum! Amet possimus dolore aut animi perferendis impedit, quaerat nemo temporibus cum tenetur aspernatur quo.</p>
         </div>
       </Carousel> */}
-
-
-        
-  </div>
+    </div>
   )
 }
