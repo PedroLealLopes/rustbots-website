@@ -9,15 +9,14 @@ export const Roadmap: FC = () => {
         <h1 className="mb-8">ROADMAP</h1>
 
         <ul>
-          <li className="roadmap-stages done">
+          <li className="roadmap-stages done"> 
             <h2>STAGE 1</h2>
             <p>
-              Launch of our RustBots Generative Collection - 12th / 15th
-              November. This launch will be done with no presale or whitelist,
-              we want everyone in the community to have a fair chance to obtain
-              a RustBot during our launch. Each of our 5 body types will be
-              included in the generative collection and will all come with
-              unique variations.
+              Launch of our RustBots Generative Collection - 13th November. This
+              launch will be done with no presale or whitelist, we want everyone
+              in the community to have a fair chance to obtain a RustBot during
+              our launch. Each of our 5 body types will be included in the
+              generative collection and will all come with unique variations.
             </p>
           </li>
           <li className="roadmap-stages">
@@ -48,8 +47,8 @@ export const Roadmap: FC = () => {
               RustBots Metaverse and establish a mental connection between the
               viewers, the main character, and all of the RustBots in this
               Metaverse. Animations will feature only minted RustBots and the
-              owner of the RustBot will be able to collect a royalty for the use
-              of their NFT in the films.
+              owner of the RustBot will be rewarded for the use of their NFT in
+              the films.
             </p>
           </li>
         </ul>
