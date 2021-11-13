@@ -9,28 +9,63 @@ const Carousel = dynamic(() => import('@brainhubeu/react-carousel'), {
 
 const people = [
   {
-    name: 'Nikolay Trynin',
-    role: '3D Artist',
-    imageUrl: 'TryninN.jpg',
+    name: 'Soyco',
+    role: 'Founder',
+    imageUrl: '/Soy.png',
+  },
+  {
+    name: 'Sam',
+    role: 'Creative Director',
+    imageUrl: '/Sam.png',
+    twitterUrl: 'https://twitter.com/wackkysam',
+  },
+  {
+    name: 'Nikolay',
+    role: '3D Artist, Animator',
+    imageUrl: '/Nik.png',
     twitterUrl: 'https://twitter.com/NikolajTrynin',
   },
   {
-    name: 'Tutubalin Artem',
-    role: '3D Modeller',
-    imageUrl: '/Tutubalin.jpg',
+    name: 'All',
+    role: '3D Artist',
+    imageUrl: '/Alyona - All.png',
+    twitterUrl: 'https://www.artstation.com/ll_simply',
+  },
+  {
+    name: 'Artyom',
+    role: '3D Artist',
+    imageUrl: '/Artyom.png',
     twitterUrl: 'https://twitter.com/ArtemTutubalin',
   },
   {
-    name: 'Igor Korepanov',
-    role: '3d Modeller',
-    imageUrl: '/igor.jpg',
-    twitterUrl: 'https://instagram.com/korepanoff25?utm_medium=copy_link',
+    name: 'Igor',
+    role: '3D Artist',
+    imageUrl: '/Igor.png',
+    twitterUrl: 'https://www.instagram.com/korepanoff25/?utm_medium=copy_link',
+  },
+  {
+    name: 'Kokoro ',
+    role: '3D Artist',
+    imageUrl: '/Alex - 3D Artist.png',
+    twitterUrl: 'https://twitter.com/KokoroKhartikov',
+  },
+  {
+    name: 'Xico',
+    role: 'Advisor',
+    imageUrl: '/Xico.png',
+    twitterUrl: 'https://twitter.com/XicoSR',
   },
   {
     name: 'Luckdude',
     role: 'Web Developer',
     imageUrl: '/luckdude.png',
-    twitterUrl: '#',
+    twitterUrl: 'https://twitter.com/devbyLuckdude',
+  },
+  {
+    name: 'RickyPox',
+    role: 'Web Developer',
+    imageUrl: '/RickyPox.png',
+    twitterUrl: 'https://twitter.com/NotRickyPox',
   },
 ]
 
